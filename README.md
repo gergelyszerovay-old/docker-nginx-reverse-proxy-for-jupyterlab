@@ -79,7 +79,8 @@ cd ssl-certs
 sh ./cert-gen.sh
 ```
 
-Set up the users in default.conf and their password files in the htpasswd folder, then run the container (the container is based on the official Nginx image):
+Set up the users in default.conf and their password files in the htpasswd folder, then run the container (the container is based on the [official Nginx image](https://hub.docker.com/_/nginx
+)):
 
 ```
 docker run -d --restart always \
